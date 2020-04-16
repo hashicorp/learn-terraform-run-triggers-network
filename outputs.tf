@@ -18,10 +18,10 @@ output lb_target_group_http_arn {
   value       = aws_lb_target_group.http.arn
 }
 
-output lb_target_group_https_arn {
-  description = "ARN of load balancer HTTPS target group"
-  value       = aws_lb_target_group.https.arn
-}
+# output lb_target_group_https_arn {
+#   description = "ARN of load balancer HTTPS target group"
+#   value       = aws_lb_target_group.https.arn
+# }
 
 output project_tag {
   description = "Tag for aws resources in this project"
