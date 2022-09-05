@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    aws = {
+      version = "~> 2.7"
+    }
+  }
+}
+
 provider "aws" {
   region = var.aws_region
 }
